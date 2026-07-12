@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" font-family="Segoe UI, system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="620" height="360" fill="#ffffff"/>
+
+  <text x="30" y="40" font-size="20" font-weight="700" fill="#1f2937">Add to Zotero for Windows</text>
+  <text x="30" y="61" font-size="12.5" fill="#6b7280">Right-click a file &#8594; add it to Zotero, and choose the collection</text>
+
+  <!-- context menu -->
+  <g filter="url(#sh)">
+    <rect x="30" y="92" width="252" height="200" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="52" y="121" font-size="13" fill="#374151">Open</text>
+    <text x="52" y="149" font-size="13" fill="#374151">Share</text>
+    <line x1="44" y1="163" x2="268" y2="163" stroke="#eef0f2"/>
+    <circle cx="47" cy="183" r="5" fill="#CC2936"/>
+    <text x="62" y="188" font-size="13" fill="#111827">Add to Zotero</text>
+    <rect x="37" y="199" width="238" height="27" rx="5" fill="#eaf2fb"/>
+    <circle cx="47" cy="213" r="5" fill="#CC2936"/>
+    <text x="62" y="218" font-size="13" font-weight="600" fill="#0b3d69">Add to Zotero (choose collection)&#8230;</text>
+    <line x1="44" y1="241" x2="268" y2="241" stroke="#eef0f2"/>
+    <text x="52" y="268" font-size="13" fill="#374151">Properties</text>
+  </g>
+
+  <!-- connector arrow -->
+  <path d="M288 213 C 312 213, 306 150, 330 150" fill="none" stroke="#9ca3af" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <polygon points="330,150 321,146 322,155" fill="#9ca3af"/>
+
+  <!-- picker dialog -->
+  <g filter="url(#sh)">
+    <rect x="338" y="70" width="256" height="250" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="354" y="97" font-size="13" font-weight="700" fill="#1f2937">Add to Zotero &#8212; Choose Collection</text>
+    <line x1="338" y1="110" x2="594" y2="110" stroke="#eef0f2"/>
+    <rect x="354" y="121" width="224" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="362" y="137" font-size="11.5" fill="#9ca3af">type to filter&#8230;</text>
+
+    <text x="360" y="171" font-size="12.5" fill="#374151">My Library</text>
+    <text x="376" y="195" font-size="12.5" fill="#374151">Papers</text>
+    <text x="376" y="219" font-size="12.5" fill="#374151">Reading</text>
+    <rect x="346" y="227" width="240" height="24" rx="4" fill="#2563eb"/>
+    <text x="376" y="243" font-size="12.5" font-weight="600" fill="#ffffff">Methods</text>
+    <text x="376" y="267" font-size="12.5" fill="#374151">Reference</text>
+
+    <rect x="432" y="282" width="66" height="27" rx="4" fill="#2563eb"/>
+    <text x="465" y="300" font-size="12" fill="#ffffff" text-anchor="middle">OK</text>
+    <rect x="508" y="282" width="70" height="27" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="543" y="300" font-size="12" fill="#334155" text-anchor="middle">Cancel</text>
+  </g>
+</svg>
